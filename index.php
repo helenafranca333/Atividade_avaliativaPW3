@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Agenda ETEC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div>
 <h1>Agenda de Eventos da ETEC</h1>
-
+<label>Maria Helena Muniz França</label>
+<br>
+<br>
 <a href="api.php" target="_blank">Ver eventos</a>
-<hr>
+<br>
+<br>
+<div class="conteiner">
 <h2>Cadastrar Evento</h2>
 <form action="api.php" method="POST">
     <label>Título:</label><br>
@@ -20,6 +25,7 @@
     <input type="text" name="local" required><br><br>
     <button type="submit">Cadastrar</button>
 </form>
-
+</div>
+</div>
 </body>
 </html>
