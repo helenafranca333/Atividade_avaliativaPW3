@@ -3,8 +3,6 @@ header("Content-Type: application/json; charset=utf-8");
 
 $metodo = $_SERVER["REQUEST_METHOD"];
 
-if($metodo == "GET"){
-
     $resposta = [
         "status" => "sucesso",
         "metodo" => "GET",
@@ -36,6 +34,4 @@ if($metodo == "GET"){
     ];
 
     echo json_encode($resposta, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
-}
-
 ?>

@@ -16,7 +16,7 @@
 <br>
 <div class="conteiner">
 <h2>Cadastrar Evento</h2>
-<form action="api.php" method="POST">
+<form action="apiPost.php" method="POST">
     <label>Título:</label><br>
     <input type="text" name="titulo" required><br><br>
     <label>Data:</label><br>
